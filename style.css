@@ -1,0 +1,91 @@
+* {
+
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap')
+}
+
+body {
+    background: #D5E1EF;
+}
+
+main {
+    position: absolute;
+    left: 1068px;
+    top: 661px;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    margin-left: -97px;
+    color: #1F314F;
+
+
+}
+
+div {
+    background: #2c7dfa;
+    width: 288px;
+    left: 576px;
+    top: 168px;
+    margin-top: 234px;
+    margin-left: 1154px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+img {
+    margin: 64px 64px;
+}
+
+h1 {
+    font-family: 'Outfit', sans-serif;
+
+}
+
+h4 {
+    font-family: 'Outfit', sans-serif;
+}
+
+@media screen and  (max-width: 844px) {
+
+
+    div {
+        margin: auto;
+        padding: 0;
+        width: 299px;
+        height: 292px;
+        margin-top: 101px;
+        margin-right: 43px;
+        margin-left: 43px;
+    }
+
+    main {
+       
+        margin: 0;
+        padding: 0;
+        width: 283px;
+        height: 59px;
+        font-size: 22px;
+        left: 0%;
+        right: 0%;
+        margin-top: 156px;
+        margin-left: 55px;
+        top: calc(50% - 56px/2 - 36.5px);
+    }
+
+    h1 {
+        font-size: 35px;
+        line-height: 28px;
+
+        
+    }
+
+    h4 {
+        font-size: 15px;
+        line-height: 20px;
+        text-align: center;
+        opacity: 0.5;
+        letter-spacing: 0.1875px;
+    }
+
+    
+
+}
